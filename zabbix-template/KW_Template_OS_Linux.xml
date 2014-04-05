@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>2.0</version>
-    <date>2014-03-03T09:24:09Z</date>
+    <date>2014-04-05T16:15:09Z</date>
     <groups>
         <group>
             <name>KW Termplate</name>
@@ -235,141 +235,6 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>system.cpu.util[,steal]</key>
-                    <delay>60</delay>
-                    <history>7</history>
-                    <trends>365</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>%</units>
-                    <delta>0</delta>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <formula>1</formula>
-                    <delay_flex/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <data_type>0</data_type>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>The amount of CPU 'stolen' from this virtual machine by the hypervisor for other tasks (such as running another virtual machine).</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>CPU</name>
-                        </application>
-                        <application>
-                            <name>Performance</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                </item>
-                <item>
-                    <name>CPU $2 time</name>
-                    <type>0</type>
-                    <snmp_community/>
-                    <multiplier>0</multiplier>
-                    <snmp_oid/>
-                    <key>system.cpu.util[,iowait]</key>
-                    <delay>60</delay>
-                    <history>7</history>
-                    <trends>365</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>%</units>
-                    <delta>0</delta>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <formula>1</formula>
-                    <delay_flex/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <data_type>0</data_type>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>Amount of time the CPU has been waiting for I/O to complete.</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>CPU</name>
-                        </application>
-                        <application>
-                            <name>Performance</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                </item>
-                <item>
-                    <name>CPU $2 time</name>
-                    <type>0</type>
-                    <snmp_community/>
-                    <multiplier>0</multiplier>
-                    <snmp_oid/>
-                    <key>system.cpu.util[,system]</key>
-                    <delay>60</delay>
-                    <history>7</history>
-                    <trends>365</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>%</units>
-                    <delta>0</delta>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <formula>1</formula>
-                    <delay_flex/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <data_type>0</data_type>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>The time the CPU has spent running the kernel and its processes.</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>CPU</name>
-                        </application>
-                        <application>
-                            <name>Performance</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                </item>
-                <item>
-                    <name>CPU $2 time</name>
-                    <type>0</type>
-                    <snmp_community/>
-                    <multiplier>0</multiplier>
-                    <snmp_oid/>
                     <key>system.cpu.util[,interrupt]</key>
                     <delay>60</delay>
                     <history>7</history>
@@ -460,7 +325,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>system.cpu.util[,softirq]</key>
+                    <key>system.cpu.util[,iowait]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -487,7 +352,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>The amount of time the CPU has been servicing software interrupts.</description>
+                    <description>Amount of time the CPU has been waiting for I/O to complete.</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -550,6 +415,51 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
+                    <key>system.cpu.util[,steal]</key>
+                    <delay>60</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>%</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>The amount of CPU 'stolen' from this virtual machine by the hypervisor for other tasks (such as running another virtual machine).</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                        <application>
+                            <name>Performance</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>CPU $2 time</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
                     <key>system.cpu.util[,user]</key>
                     <delay>60</delay>
                     <history>7</history>
@@ -578,6 +488,96 @@
                     <privatekey/>
                     <port/>
                     <description>The time the CPU has spent running users' processes that are not niced.</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                        <application>
+                            <name>Performance</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>CPU $2 time</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>system.cpu.util[,system]</key>
+                    <delay>60</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>%</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>The time the CPU has spent running the kernel and its processes.</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                        <application>
+                            <name>Performance</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>CPU $2 time</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>system.cpu.util[,softirq]</key>
+                    <delay>60</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>%</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>The amount of time the CPU has been servicing software interrupts.</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -982,7 +982,7 @@
                     <snmp_community/>
                     <multiplier>1</multiplier>
                     <snmp_oid/>
-                    <key>net.if.in[eth1]</key>
+                    <key>net.if.in[eth0]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -1024,7 +1024,7 @@
                     <snmp_community/>
                     <multiplier>1</multiplier>
                     <snmp_oid/>
-                    <key>net.if.in[eth0]</key>
+                    <key>net.if.in[eth1]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -1450,7 +1450,7 @@
                     <snmp_community/>
                     <multiplier>1</multiplier>
                     <snmp_oid/>
-                    <key>net.if.out[eth1]</key>
+                    <key>net.if.out[eth0]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -1492,7 +1492,7 @@
                     <snmp_community/>
                     <multiplier>1</multiplier>
                     <snmp_oid/>
-                    <key>net.if.out[eth0]</key>
+                    <key>net.if.out[eth1]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -2353,7 +2353,7 @@
                     </trigger_prototypes>
                     <graph_prototypes>
                         <graph_prototype>
-                            <name>3.Disk - Disk Usage {#FSNAME}</name>
+                            <name>3.Disk  -  Disk usage {#FSNAME}</name>
                             <width>900</width>
                             <height>200</height>
                             <yaxismin>0.0000</yaxismin>
@@ -2374,18 +2374,6 @@
                             </ymax_item_1>
                             <graph_items>
                                 <graph_item>
-                                    <sortorder>1</sortorder>
-                                    <drawtype>5</drawtype>
-                                    <color>CC0000</color>
-                                    <yaxisside>0</yaxisside>
-                                    <calc_fnc>2</calc_fnc>
-                                    <type>0</type>
-                                    <item>
-                                        <host>KW_Template OS Linux</host>
-                                        <key>vfs.fs.size[{#FSNAME},used]</key>
-                                    </item>
-                                </graph_item>
-                                <graph_item>
                                     <sortorder>0</sortorder>
                                     <drawtype>5</drawtype>
                                     <color>00CC00</color>
@@ -2395,6 +2383,18 @@
                                     <item>
                                         <host>KW_Template OS Linux</host>
                                         <key>vfs.fs.size[{#FSNAME},total]</key>
+                                    </item>
+                                </graph_item>
+                                <graph_item>
+                                    <sortorder>1</sortorder>
+                                    <drawtype>5</drawtype>
+                                    <color>CC0000</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>2</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>KW_Template OS Linux</host>
+                                        <key>vfs.fs.size[{#FSNAME},used]</key>
                                     </item>
                                 </graph_item>
                             </graph_items>
@@ -2594,7 +2594,7 @@
                             <dynamic>0</dynamic>
                             <sort_triggers>0</sort_triggers>
                             <resource>
-                                <name>1.CPU - Load Avarage</name>
+                                <name>1.CPU  -  Load Avarage</name>
                                 <host>KW_Template OS Linux</host>
                             </resource>
                             <application/>
@@ -2615,7 +2615,7 @@
                             <dynamic>0</dynamic>
                             <sort_triggers>0</sort_triggers>
                             <resource>
-                                <name>2.Memory - Physical Memory usage</name>
+                                <name>2.Memory - Physical Memory Usage</name>
                                 <host>KW_Template OS Linux</host>
                             </resource>
                             <application/>
@@ -2699,7 +2699,7 @@
                             <dynamic>0</dynamic>
                             <sort_triggers>0</sort_triggers>
                             <resource>
-                                <name>1.CPU usage</name>
+                                <name>1.CPU  -  Usage</name>
                                 <host>KW_Template OS Linux</host>
                             </resource>
                             <application/>
@@ -2720,7 +2720,7 @@
                             <dynamic>0</dynamic>
                             <sort_triggers>0</sort_triggers>
                             <resource>
-                                <name>2.Memory - Swap usage</name>
+                                <name>2.Memory - Swap Memory Usage</name>
                                 <host>KW_Template OS Linux</host>
                             </resource>
                             <application/>
@@ -2923,18 +2923,6 @@
             <ymax_item_1>0</ymax_item_1>
             <graph_items>
                 <graph_item>
-                    <sortorder>0</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>009900</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>4</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>KW_Template OS Linux</host>
-                        <key>system.cpu.load[percpu,avg1]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
                     <sortorder>2</sortorder>
                     <drawtype>0</drawtype>
                     <color>990000</color>
@@ -2958,10 +2946,22 @@
                         <key>system.cpu.load[percpu,avg5]</key>
                     </item>
                 </graph_item>
+                <graph_item>
+                    <sortorder>0</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>009900</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>4</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>KW_Template OS Linux</host>
+                        <key>system.cpu.load[percpu,avg1]</key>
+                    </item>
+                </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>1.CPU usage</name>
+            <name>1.CPU  -  Usage</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -2978,54 +2978,6 @@
             <ymin_item_1>0</ymin_item_1>
             <ymax_item_1>0</ymax_item_1>
             <graph_items>
-                <graph_item>
-                    <sortorder>7</sortorder>
-                    <drawtype>1</drawtype>
-                    <color>009900</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>4</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>KW_Template OS Linux</host>
-                        <key>system.cpu.util[,idle]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>1</sortorder>
-                    <drawtype>1</drawtype>
-                    <color>55FF55</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>4</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>KW_Template OS Linux</host>
-                        <key>system.cpu.util[,softirq]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>5</sortorder>
-                    <drawtype>1</drawtype>
-                    <color>990000</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>4</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>KW_Template OS Linux</host>
-                        <key>system.cpu.util[,system]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>4</sortorder>
-                    <drawtype>1</drawtype>
-                    <color>999900</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>4</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>KW_Template OS Linux</host>
-                        <key>system.cpu.util[,iowait]</key>
-                    </item>
-                </graph_item>
                 <graph_item>
                     <sortorder>0</sortorder>
                     <drawtype>1</drawtype>
@@ -3063,6 +3015,54 @@
                     </item>
                 </graph_item>
                 <graph_item>
+                    <sortorder>1</sortorder>
+                    <drawtype>1</drawtype>
+                    <color>55FF55</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>4</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>KW_Template OS Linux</host>
+                        <key>system.cpu.util[,softirq]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>4</sortorder>
+                    <drawtype>1</drawtype>
+                    <color>999900</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>4</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>KW_Template OS Linux</host>
+                        <key>system.cpu.util[,iowait]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>7</sortorder>
+                    <drawtype>1</drawtype>
+                    <color>009900</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>4</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>KW_Template OS Linux</host>
+                        <key>system.cpu.util[,idle]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>5</sortorder>
+                    <drawtype>1</drawtype>
+                    <color>990000</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>4</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>KW_Template OS Linux</host>
+                        <key>system.cpu.util[,system]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
                     <sortorder>3</sortorder>
                     <drawtype>1</drawtype>
                     <color>990099</color>
@@ -3077,7 +3077,54 @@
             </graph_items>
         </graph>
         <graph>
-            <name>2.Memory - Swap usage</name>
+            <name>2.Memory - Physical Memory Usage</name>
+            <width>900</width>
+            <height>200</height>
+            <yaxismin>0.0000</yaxismin>
+            <yaxismax>100.0000</yaxismax>
+            <show_work_period>1</show_work_period>
+            <show_triggers>1</show_triggers>
+            <type>0</type>
+            <show_legend>1</show_legend>
+            <show_3d>0</show_3d>
+            <percent_left>0.0000</percent_left>
+            <percent_right>0.0000</percent_right>
+            <ymin_type_1>1</ymin_type_1>
+            <ymax_type_1>2</ymax_type_1>
+            <ymin_item_1>0</ymin_item_1>
+            <ymax_item_1>
+                <host>KW_Template OS Linux</host>
+                <key>vm.memory.size[total]</key>
+            </ymax_item_1>
+            <graph_items>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <drawtype>5</drawtype>
+                    <color>EE0000</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>4</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>KW_Template OS Linux</host>
+                        <key>vm.memory.size[used]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>0</sortorder>
+                    <drawtype>5</drawtype>
+                    <color>99FF99</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>4</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>KW_Template OS Linux</host>
+                        <key>vm.memory.size[total]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>2.Memory - Swap Memory Usage</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -3119,53 +3166,6 @@
                     <item>
                         <host>KW_Template OS Linux</host>
                         <key>system.swap.size[used]</key>
-                    </item>
-                </graph_item>
-            </graph_items>
-        </graph>
-        <graph>
-            <name>2.Memory - Physical Memory usage</name>
-            <width>900</width>
-            <height>200</height>
-            <yaxismin>0.0000</yaxismin>
-            <yaxismax>100.0000</yaxismax>
-            <show_work_period>1</show_work_period>
-            <show_triggers>1</show_triggers>
-            <type>0</type>
-            <show_legend>1</show_legend>
-            <show_3d>0</show_3d>
-            <percent_left>0.0000</percent_left>
-            <percent_right>0.0000</percent_right>
-            <ymin_type_1>1</ymin_type_1>
-            <ymax_type_1>2</ymax_type_1>
-            <ymin_item_1>0</ymin_item_1>
-            <ymax_item_1>
-                <host>KW_Template OS Linux</host>
-                <key>vm.memory.size[total]</key>
-            </ymax_item_1>
-            <graph_items>
-                <graph_item>
-                    <sortorder>0</sortorder>
-                    <drawtype>5</drawtype>
-                    <color>99FF99</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>4</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>KW_Template OS Linux</host>
-                        <key>vm.memory.size[total]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>1</sortorder>
-                    <drawtype>5</drawtype>
-                    <color>EE0000</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>4</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>KW_Template OS Linux</host>
-                        <key>vm.memory.size[used]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -3236,18 +3236,6 @@
             </ymax_item_1>
             <graph_items>
                 <graph_item>
-                    <sortorder>1</sortorder>
-                    <drawtype>5</drawtype>
-                    <color>EE00EE</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>4</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>KW_Template OS Linux</host>
-                        <key>vfs.fs.size[/boot,used]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
                     <sortorder>0</sortorder>
                     <drawtype>5</drawtype>
                     <color>00AA00</color>
@@ -3257,6 +3245,18 @@
                     <item>
                         <host>KW_Template OS Linux</host>
                         <key>vfs.fs.size[/boot,total]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <drawtype>5</drawtype>
+                    <color>EE00EE</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>4</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>KW_Template OS Linux</host>
+                        <key>vfs.fs.size[/boot,used]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -3283,18 +3283,6 @@
             </ymax_item_1>
             <graph_items>
                 <graph_item>
-                    <sortorder>0</sortorder>
-                    <drawtype>5</drawtype>
-                    <color>00AA00</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>4</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>KW_Template OS Linux</host>
-                        <key>vfs.fs.size[/,total]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
                     <sortorder>1</sortorder>
                     <drawtype>5</drawtype>
                     <color>EE00EE</color>
@@ -3304,6 +3292,18 @@
                     <item>
                         <host>KW_Template OS Linux</host>
                         <key>vfs.fs.size[/,used]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>0</sortorder>
+                    <drawtype>5</drawtype>
+                    <color>00AA00</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>4</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>KW_Template OS Linux</host>
+                        <key>vfs.fs.size[/,total]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -3327,18 +3327,6 @@
             <ymax_item_1>0</ymax_item_1>
             <graph_items>
                 <graph_item>
-                    <sortorder>1</sortorder>
-                    <drawtype>5</drawtype>
-                    <color>0000AA</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>4</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>KW_Template OS Linux</host>
-                        <key>net.if.out[eth0]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
                     <sortorder>0</sortorder>
                     <drawtype>5</drawtype>
                     <color>00AA00</color>
@@ -3348,6 +3336,18 @@
                     <item>
                         <host>KW_Template OS Linux</host>
                         <key>net.if.in[eth0]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <drawtype>5</drawtype>
+                    <color>0000AA</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>4</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>KW_Template OS Linux</host>
+                        <key>net.if.out[eth0]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -3371,18 +3371,6 @@
             <ymax_item_1>0</ymax_item_1>
             <graph_items>
                 <graph_item>
-                    <sortorder>0</sortorder>
-                    <drawtype>5</drawtype>
-                    <color>00AA00</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>4</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>KW_Template OS Linux</host>
-                        <key>net.if.in[eth1]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
                     <sortorder>1</sortorder>
                     <drawtype>5</drawtype>
                     <color>0000AA</color>
@@ -3392,6 +3380,18 @@
                     <item>
                         <host>KW_Template OS Linux</host>
                         <key>net.if.out[eth1]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>0</sortorder>
+                    <drawtype>5</drawtype>
+                    <color>00AA00</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>4</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>KW_Template OS Linux</host>
+                        <key>net.if.in[eth1]</key>
                     </item>
                 </graph_item>
             </graph_items>
