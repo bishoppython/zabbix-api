@@ -2961,7 +2961,7 @@
             </graph_items>
         </graph>
         <graph>
-            <name>1.CPU  -  使用率</name>
+            <name>1.CPU usage</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -3077,7 +3077,7 @@
             </graph_items>
         </graph>
         <graph>
-            <name>2.Memory - Swap使用率</name>
+            <name>2.Memory - Swap usage</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -3124,7 +3124,7 @@
             </graph_items>
         </graph>
         <graph>
-            <name>2.Memory - 物理メモリ使用率</name>
+            <name>2.Memory - Physical Memory usage</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -3215,7 +3215,7 @@
             </graph_items>
         </graph>
         <graph>
-            <name>3.Dsik - /boot 使用率</name>
+            <name>3.Dsik - /boot usage</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -3262,7 +3262,7 @@
             </graph_items>
         </graph>
         <graph>
-            <name>3.Dsik - / 使用率</name>
+            <name>3.Dsik - / usage</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
