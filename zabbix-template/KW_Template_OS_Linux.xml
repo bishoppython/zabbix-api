@@ -2353,7 +2353,7 @@
                     </trigger_prototypes>
                     <graph_prototypes>
                         <graph_prototype>
-                            <name>3.Disk  -  ディスク使用率 {#FSNAME}</name>
+                            <name>3.Disk - Disk Usage {#FSNAME}</name>
                             <width>900</width>
                             <height>200</height>
                             <yaxismin>0.0000</yaxismin>
@@ -2594,7 +2594,7 @@
                             <dynamic>0</dynamic>
                             <sort_triggers>0</sort_triggers>
                             <resource>
-                                <name>1.CPU  -  Load Avarage</name>
+                                <name>1.CPU - Load Avarage</name>
                                 <host>KW_Template OS Linux</host>
                             </resource>
                             <application/>
@@ -2615,7 +2615,7 @@
                             <dynamic>0</dynamic>
                             <sort_triggers>0</sort_triggers>
                             <resource>
-                                <name>2.Memory - 物理メモリ使用率</name>
+                                <name>2.Memory - Physical Memory usage</name>
                                 <host>KW_Template OS Linux</host>
                             </resource>
                             <application/>
@@ -2636,7 +2636,7 @@
                             <dynamic>0</dynamic>
                             <sort_triggers>0</sort_triggers>
                             <resource>
-                                <name>3.Dsik - / 使用率</name>
+                                <name>3.Dsik - / usage</name>
                                 <host>KW_Template OS Linux</host>
                             </resource>
                             <application/>
@@ -2699,7 +2699,7 @@
                             <dynamic>0</dynamic>
                             <sort_triggers>0</sort_triggers>
                             <resource>
-                                <name>1.CPU  -  使用率</name>
+                                <name>1.CPU usage</name>
                                 <host>KW_Template OS Linux</host>
                             </resource>
                             <application/>
@@ -2720,7 +2720,7 @@
                             <dynamic>0</dynamic>
                             <sort_triggers>0</sort_triggers>
                             <resource>
-                                <name>2.Memory - Swap使用率</name>
+                                <name>2.Memory - Swap usage</name>
                                 <host>KW_Template OS Linux</host>
                             </resource>
                             <application/>
