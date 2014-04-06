@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>2.0</version>
-    <date>2014-03-03T09:24:30Z</date>
+    <date>2014-04-06T01:43:03Z</date>
     <groups>
         <group>
             <name>KW Termplate</name>
@@ -1186,18 +1186,6 @@
                             <ymax_item_1>0</ymax_item_1>
                             <graph_items>
                                 <graph_item>
-                                    <sortorder>0</sortorder>
-                                    <drawtype>0</drawtype>
-                                    <color>C80000</color>
-                                    <yaxisside>0</yaxisside>
-                                    <calc_fnc>2</calc_fnc>
-                                    <type>2</type>
-                                    <item>
-                                        <host>KW_Template OS Windows</host>
-                                        <key>vfs.fs.size[{#FSNAME},total]</key>
-                                    </item>
-                                </graph_item>
-                                <graph_item>
                                     <sortorder>1</sortorder>
                                     <drawtype>0</drawtype>
                                     <color>00C800</color>
@@ -1207,6 +1195,18 @@
                                     <item>
                                         <host>KW_Template OS Windows</host>
                                         <key>vfs.fs.size[{#FSNAME},free]</key>
+                                    </item>
+                                </graph_item>
+                                <graph_item>
+                                    <sortorder>0</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>C80000</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>2</calc_fnc>
+                                    <type>2</type>
+                                    <item>
+                                        <host>KW_Template OS Windows</host>
+                                        <key>vfs.fs.size[{#FSNAME},total]</key>
                                     </item>
                                 </graph_item>
                             </graph_items>
@@ -1406,7 +1406,7 @@
                             <dynamic>0</dynamic>
                             <sort_triggers>0</sort_triggers>
                             <resource>
-                                <name>1.CPU - 使用率</name>
+                                <name>1.CPU - Usage</name>
                                 <host>KW_Template OS Windows</host>
                             </resource>
                             <application/>
@@ -1427,7 +1427,7 @@
                             <dynamic>0</dynamic>
                             <sort_triggers>0</sort_triggers>
                             <resource>
-                                <name>2.Memory - 物理メモリ使用率</name>
+                                <name>2.Memory - Physical Memory Usage</name>
                                 <host>KW_Template OS Windows</host>
                             </resource>
                             <application/>
@@ -1490,7 +1490,7 @@
                             <dynamic>0</dynamic>
                             <sort_triggers>0</sort_triggers>
                             <resource>
-                                <name>2.Memory - Swap使用率</name>
+                                <name>2.Memory - Swap Memory Usage</name>
                                 <host>KW_Template OS Windows</host>
                             </resource>
                             <application/>
@@ -1630,7 +1630,7 @@
             </graph_items>
         </graph>
         <graph>
-            <name>1.CPU - 使用率</name>
+            <name>1.CPU - Usage</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -1662,54 +1662,7 @@
             </graph_items>
         </graph>
         <graph>
-            <name>2.Memory - Swap使用率</name>
-            <width>900</width>
-            <height>200</height>
-            <yaxismin>0.0000</yaxismin>
-            <yaxismax>100.0000</yaxismax>
-            <show_work_period>1</show_work_period>
-            <show_triggers>1</show_triggers>
-            <type>0</type>
-            <show_legend>1</show_legend>
-            <show_3d>0</show_3d>
-            <percent_left>0.0000</percent_left>
-            <percent_right>0.0000</percent_right>
-            <ymin_type_1>1</ymin_type_1>
-            <ymax_type_1>2</ymax_type_1>
-            <ymin_item_1>0</ymin_item_1>
-            <ymax_item_1>
-                <host>KW_Template OS Windows</host>
-                <key>system.swap.size[,total]</key>
-            </ymax_item_1>
-            <graph_items>
-                <graph_item>
-                    <sortorder>0</sortorder>
-                    <drawtype>5</drawtype>
-                    <color>99FF99</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>KW_Template OS Windows</host>
-                        <key>system.swap.size[,total]</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>1</sortorder>
-                    <drawtype>5</drawtype>
-                    <color>BB0000</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>KW_Template OS Windows</host>
-                        <key>system.swap.size[,used]</key>
-                    </item>
-                </graph_item>
-            </graph_items>
-        </graph>
-        <graph>
-            <name>2.Memory - 物理メモリ使用率</name>
+            <name>2.Memory - Physical Memory Usage</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -1751,6 +1704,53 @@
                     <item>
                         <host>KW_Template OS Windows</host>
                         <key>vm.memory.size[used]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>2.Memory - Swap Memory Usage</name>
+            <width>900</width>
+            <height>200</height>
+            <yaxismin>0.0000</yaxismin>
+            <yaxismax>100.0000</yaxismax>
+            <show_work_period>1</show_work_period>
+            <show_triggers>1</show_triggers>
+            <type>0</type>
+            <show_legend>1</show_legend>
+            <show_3d>0</show_3d>
+            <percent_left>0.0000</percent_left>
+            <percent_right>0.0000</percent_right>
+            <ymin_type_1>1</ymin_type_1>
+            <ymax_type_1>2</ymax_type_1>
+            <ymin_item_1>0</ymin_item_1>
+            <ymax_item_1>
+                <host>KW_Template OS Windows</host>
+                <key>system.swap.size[,total]</key>
+            </ymax_item_1>
+            <graph_items>
+                <graph_item>
+                    <sortorder>0</sortorder>
+                    <drawtype>5</drawtype>
+                    <color>99FF99</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>KW_Template OS Windows</host>
+                        <key>system.swap.size[,total]</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <drawtype>5</drawtype>
+                    <color>BB0000</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>KW_Template OS Windows</host>
+                        <key>system.swap.size[,used]</key>
                     </item>
                 </graph_item>
             </graph_items>
