@@ -2574,7 +2574,7 @@
             </templates>
             <screens>
                 <screen>
-                    <name>Linux Serveｒ Status</name>
+                    <name>Linux Server Status</name>
                     <hsize>2</hsize>
                     <vsize>4</vsize>
                     <screen_items>
